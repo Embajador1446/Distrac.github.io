@@ -1,0 +1,72 @@
+*{
+    background-image: url(../imagenes/Pino-Blanco-300x225.jpg);
+    font-family:"./assets/fonts/Bacasime_Antique.zip";
+    margin: 10;
+    padding: 10;
+
+}
+
+#encabezado{
+    display: flex;
+    
+    
+}
+
+#logotipooo {
+    height: 60px;
+}
+.foto{
+    height: 50vh;
+    width: 50%;
+    margin-left: 160px;
+    
+    
+}
+.logo img{
+    height: 60px;
+
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+ul li a{
+    display: flexbox ;
+}
+.mi-titulo{
+    text-align: center;
+    margin: 25px 0;
+}
+h2{
+    text-align: center;
+}
+.iframe{
+    margin-left:auto;
+    justify-content: space-around;
+
+}
+.videomuebles{
+    height: 80px;
+    width: 60px;
+    margin-right:40px ;
+}
+.cajaUno{
+    height: 45vh;
+    width: 45vw;
+    margin-left: 30px;
+}
+.videos{
+    margin-left: 30px;
+}
+
+.nav :hover{
+    color: blanchedalmond;
+    background-color: goldenrod;
+}
+.pie-pagina :hover{
+    color: blanchedalmond;
+    background-color: goldenrod;
+}
