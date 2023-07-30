@@ -52,6 +52,9 @@ h2{
 }
 .videos{
     margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav :hover{
@@ -61,4 +64,9 @@ h2{
 .pie-pagina :hover{
     color: blanchedalmond;
     background-color: goldenrod;
+}
+.oki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
