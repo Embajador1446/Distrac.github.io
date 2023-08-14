@@ -60,11 +60,11 @@ h2{
 }
 
 .nav :hover{
-    color: blanchedalmond;
+    color: black;
     background-color: goldenrod;
 }
 .pie-pagina :hover{
-    color: blanchedalmond;
+    color: black;
     background-color: goldenrod;
 }
 .oki{
@@ -75,8 +75,8 @@ h2{
 
 }
 .somos{
-    text-align: center;
-    font-size: xx-large;
+    text-align: right;
+    font-size: medium;
     color:black
 }
 
@@ -128,4 +128,10 @@ h2{
     border: 1px solid blanchedalmond;
     border-radius: 4px;
     transition: all 400ms ease;
+}
+.congeneral{
+    width: 60%;
+    max-width: 1500px;
+    margin: auto;
+    overflow:visible;
 }
