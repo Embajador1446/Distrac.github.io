@@ -1,86 +1,83 @@
+/*variable*/
+.congeneral {
+  width: 60%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: visible;
+}
+
 *{
-    background-image: url(../imagenes/NUVFOND.jpg);
-    font-family:"./assets/fonts/Bacasime_Antique.zip";
-    margin: 10;
-    padding: 10;
+  background-image: url(../imagenes/NUVFOND.jpg);
+  font-family:"./assets/fonts/Bacasime_Antique.zip";
+  margin: 10;
+  padding: 10;
+}
 
+.containercont {
+  width: 100x;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#logotipooo {
-    height: 60px;
+.containercont .form {
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 15px;
 }
-.foto{
-    height: 50vh;
+.containercont .row {
+  width: 100%;
+  min-height: 50px;
+  position: relative;
+}
+.containercont .form-control {
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  color: black;
+}
+.containercont .form-label {
+  top: 15px;
+  left: 30px;
+}
+.containercont .botonprimary {
+  width: 50%;
+  height: 30px;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 10%;
+}
+.form {
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 15px;
+}
+.form-control{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    color: black;
+}
+.form-label{
+    top: 15px;
+    left: 30px;
+    border:#fff;
+}
+.botonprimary{
     width: 50%;
-    margin-left: 160px;
-    
-    
-}
-.logo img{
-    height: 80px;
-    width: 150px;
-}
-
-ul li{
-    list-style: none;
-    display: inline;
-    margin: 0 20px;
+    height: 30px;
+    font-size: 1.2rem;
     color:black;
+    border-radius: 10%;
 }
-ul li a{
-    display: flexbox ;
-    color: black;
-    display: inline;
-}
-.mi-titulo{
-    text-align: center;
-    margin: 25px 0;
-}
-h2{
-    text-align: center;
-}
-.iframe{
-    margin-left:auto;
-    justify-content: space-around;
-
-}
-.videomuebles{
-    height: 80px;
-    width: 60px;
-    margin-right:40px ;
-}
-.cajaUno{
-    height: 45vh;
-    width: 45vw;
-    margin-left: 30px;
-}
-.videos{
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav :hover{
-    color: black;
-    background-color: goldenrod;
-}
-.pie-pagina :hover{
-    color: black;
-    background-color: goldenrod;
-}
-.oki{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-
-}
-.somos{
-    text-align: right;
-    font-size: medium;
-    color:black
-}
-
 
 .card-group{
     width: 100%;
@@ -94,8 +91,6 @@ h2{
     overflow: hidden;
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2)
-    
-    
 
 }
 .card:hover{
@@ -136,44 +131,10 @@ h2{
     margin: auto;
     overflow:visible;
 }
-.containercont{
-    width: 100x;
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-   }
-.form {
-    box-shadow: 0 0 5px black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 20px;
-    gap: 15px;
-}
 .row{
     width: 100%;
     min-height: 50px;
     position: relative;
-}
-.form-control{
-    width: 100%;
-    height: 50px;
-    border: 2px solid black;
-    color: black;
-}
-.form-label{
-    top: 15px;
-    left: 30px;
-    border:#fff;
-}
-.botonprimary{
-    width: 50%;
-    height: 30px;
-    font-size: 1.2rem;
-    color:black;
-    border-radius: 10%;
 }
 .colimg{
     width: 100%;
@@ -222,3 +183,4 @@ p{
     width: 100%;
     height: 210px;
 }
+/*# sourceMappingURL=style.css.map */
