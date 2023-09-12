@@ -76,7 +76,7 @@ let opcionDeCompra;
 
 do {
   opcionDeCompra = parseInt(
-    prompt("Indíquenos su medio de pago:\n1. Efectivo\n2. Tarjeta de Crédito")
+    prompt("Indíquenos su medio de pago:\n1. \n2. Tarjeta de Crédito")
   );
 } while (isNaN(opcionDeCompra) || opcionDeCompra < 1 || opcionDeCompra > 2);
 
@@ -115,11 +115,11 @@ while (continuarConLaCompra) {
 
   do {
     opcionContinuar = prompt(
-      "¿Desea continuar con la compra? (Si/No)"
+      "¿Desea continuar con la compra? (S/N)"
     ).toUpperCase();
-  } while (opcionContinuar !== "Si" && opcionContinuar !== "No");
+  } while (opcionContinuar !== "S" && opcionContinuar !== "N");
 
-  if (opcionContinuar !== "Si") {
+  if (opcionContinuar !== "S") {
     continuarComprando = false;
     alert("Gracias por su compra. fue un placer atenderte!!");
   }
