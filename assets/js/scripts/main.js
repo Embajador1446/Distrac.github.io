@@ -45,6 +45,8 @@
 //   "El usuario " + obtenerDetallesDelRegistro(apellido, nombres, correo, mensaje)
 // );
 
+
+//inicia pre-entrega1//
 let nombreCliente;
 let edad;
 let añoActual = 2023;
@@ -54,7 +56,7 @@ const Impuesto = "1.5%";
 
 do {
   nombreCliente = prompt(
-    "Es un gusto tenerte aqui, ingresa tu nombre para continuar "
+    "Es un gusto saludarte, indicanos tu nombre para continuar "
   );
 } while (!nombreCliente || !isNaN(nombreCliente));
 
@@ -67,23 +69,23 @@ edadComprador = añoActual - edad;
 alert("Hola " + nombreCliente);
 
 if (edadComprador >= 18) {
-  alert("Puede acceder a comprar");
+  alert("Perfecto, continuemos con la compra ");
 } else {
-  alert("Necesita de un adulto para continuar");
+  alert("Ops!, necesitas compañia de un adulto mayor de edad");
 }
 
 let opcionDeCompra;
 
 do {
   opcionDeCompra = parseInt(
-    prompt("Indíquenos su medio de pago:\n1. Efectivo \n2. Tarjeta de Crédito")
+    prompt("Con que metodo de pago realizaras la compra:\n1. Efectivo \n2. Tarjeta de Crédito")
   );
 } while (isNaN(opcionDeCompra) || opcionDeCompra < 1 || opcionDeCompra > 2);
 
 if (opcionDeCompra === 1) {
-  alert("Contamos con descuentos exclusivos");
+  alert("Contamos para ti con descuentos exclusivos");
 } else if (opcionDeCompra === 2) {
-  alert("Tiene un aumento en su compra de " + Impuesto);
+  alert("su compra tendra un aumento del" + Impuesto);
 } else {
   alert("Indique una opción válida");
 }
@@ -94,22 +96,22 @@ while (continuarConLaCompra) {
   let costoFinal;
 
   do {
-    costoFinal = parseFloat(prompt("Indique el costo final de la compra"));
+    costoFinal = parseFloat(prompt("Total de la compra"));
   } while (isNaN(costoFinal) || costoFinal <= 0);
 
   let descuento = 0;
 
   if (costoFinal >= 100 && costoFinal < 500) {
-    descuento = 10;
+    descuento = 35;
   } else if (costoFinal >= 500 && costoFinal < 1000) {
-    descuento = 20;
+    descuento = 56;
   } else if (costoFinal >= 1000) {
-    descuento = 30;
+    descuento = 40;
   }
 
   let costoConDescuento = costoFinal - (costoFinal * descuento) / 100;
 
-  alert("El descuento total es : " + costoConDescuento);
+  alert("El total con descuento sera de  : " + costoConDescuento);
 
   let opcionContinuar;
 
@@ -120,7 +122,7 @@ while (continuarConLaCompra) {
   } while (opcionContinuar !== "S" && opcionContinuar !== "N");
 
   if (opcionContinuar !== "S") {
-    continuarComprando = false;
+    continuarComprando = true;
     alert("Gracias por su compra. fue un placer atenderte!!");
   }
 }
